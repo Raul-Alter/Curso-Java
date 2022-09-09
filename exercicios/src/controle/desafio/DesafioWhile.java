@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DesafioWhile {
     public static void main(String[] args) {
-        Scanner entrada = Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         int qtdNotas = 0;
         double nota = 0;

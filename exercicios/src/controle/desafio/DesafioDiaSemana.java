@@ -7,7 +7,7 @@ public class DesafioDiaSemana {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Digite o nome do dia: ");
-        String dia = enrada.next();
+        String dia = entrada.next();
 
         if ("domingo".equalsIgnoreCase(dia)) {
             System.out.println(1);
